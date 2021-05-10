@@ -1,0 +1,11 @@
+<div class="error">
+    <div id="error">{{ viewProps.persons.map(function(item, i) {
+        return '<h1>item</h1>';
+        }).join('') }}</div>
+</div>
+
+<script type="module">
+    import {includeStyleSheet} from "../../../app/Utils/includeStyleSheet.function.js";
+
+    includeStyleSheet("core/FatalException.css");
+</script>
